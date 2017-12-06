@@ -4,7 +4,7 @@ var methodOverride = require('method-override')
 
 var app = express();
 var port = 3000;
-var port = process.env.PORT;
+var port = process.env.PORT || 3000;
 
 
 app.use(express.static(process.cwd() + '/public'));
@@ -23,4 +23,4 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);
