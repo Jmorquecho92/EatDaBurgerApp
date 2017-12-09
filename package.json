@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jmorquecho92/burger/issues"
+    "url": "https://github.com/Jmorquecho92/EatDaBurgerApp/issues"
   },
-  "homepage": "https://github.com/Jmorquecho92/burger#readme",
+  "homepage": "https://github.com/Jmorquecho92/EatDaBurgerApp#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

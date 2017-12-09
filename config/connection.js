@@ -1,9 +1,8 @@
 var mysql = require('mysql');
-var host = process.env.CLEARDB_DATABASE_URL || '127.0.0.1';
 var connection;
 //MYSQL Connection
-if(process.env.CLEARDB_DATABASE_URL) {
-    connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+if(process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else{
     connection = mysql.createConnection({
         host: 'localhost',
